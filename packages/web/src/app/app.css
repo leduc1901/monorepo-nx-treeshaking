@@ -1,0 +1,211 @@
+/* Your styles goes here. */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+    border-radius: 16px;
+    padding-top: 46px;
+    position: relative;
+    box-shadow: 0 20px 30px -10px #26394d;
+  }
+  
+  .menu-container{
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% - 140px);
+    padding: 8px;
+    width: 280px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    gap: 4px;
+    z-index: 20;
+  }
+  
+  .menu-item-background {
+    width: 24px;
+    height: 24px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    margin: 0 auto;
+    border-radius: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .menu-item:first-child {
+    width: 74px;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    padding-left: 12px;
+    min-width: 54px;
+    text-align: center;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;  
+  }
+  
+  .menu-item svg {
+    margin-left:  auto;
+    margin-bottom: 12px;
+    margin-right: auto;
+  }
+  
+  .menu-item:hover {
+    background-color: #e6e3e3;
+  }
+  
+  .editor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #left-handler:hover {
+    height: 44px;
+    width: 12px;
+    transition: all 0.15s;
+  }
+  
+  #right-handler:hover {
+    height: 44px;
+    width: 12px;
+    transition: all 0.15s;
+  }
+  
+  #left-handler {
+    background-color: white;
+    transition: all 0.15s;
+    height: 32px;
+    width: 8px;
+    position: absolute;
+    left: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius:6px;
+    cursor: pointer;
+  }
+  
+  #right-handler {
+    background-color: white;
+    transition: all 0.15s;
+    height: 32px;
+    width: 8px;
+    position: absolute;
+    right: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    cursor: pointer;
+  }
+  
+  textarea:focus {
+    outline: none;
+  }
+  .wrapper {
+    margin-top: 40px;
+    margin-bottom: 140px;
+    border-radius: 16px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    padding: 56px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    min-height: 450px;
+  }
+  .header {
+   background-color: rgb(31 41 55);
+    height: 46px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .header-buttons {
+    display: flex;
+    position: absolute;
+    width: 54px;
+    justify-content: space-between;
+    left: 16px;
+    top: 16px
+  }
+  
+  .header-buttons div {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+  }
+  
+  .header-buttons div:nth-child(1) {
+    background: rgb(244 63 94);
+  }
+  
+  .header-buttons div:nth-child(2) {
+    background: rgb(234 179 8);
+  }
+  
+  .header-buttons div:nth-child(3) {
+    background: rgb(22 163 74);
+  }
+  
+  .input-wrapper {
+    width: 30%;
+    height: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgb(55 65 81);
+    margin: auto;
+    border-radius: 12px;
+  }
+  
+  .input-wrapper input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    color: rgb(243 244 246);
+    background-color: transparent;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;;
+  }
+
+  #root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 100vw;
+    min-height: 100vh;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    background-color: rgb(55 65 81);
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    position: relative;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  
