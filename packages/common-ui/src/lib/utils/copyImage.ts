@@ -2,6 +2,7 @@
 // @ts-ignore
 import { toBlob } from 'dom-to-image';
 import { toast } from 'react-toastify';
+
 export const copyImage = (element: HTMLElement | null): string => {
   if (!element) {
     return 'Element not found';

@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx dev @monorepo-nx/web",
-    "build": "nx build",
+    "build": "nx run-many --target=build",
     "build-web": "nx build @monorepo-nx/web",
     "build-ui": "nx build @monorepo-nx/common-ui",
     "test:jest": "jest --passWithNoTests --updateSnapshot --coverage"

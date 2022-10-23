@@ -2,16 +2,17 @@
   "name": "@monorepo-nx/common-ui",
   "private": true,
   "version": "0.0.0",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "type": "module",
+  "sideEffects": false,
   "scripts": {
     "build": "tsup --dts"
   },
   "files": [
     "dist"
   ],
-  "sideEffects": false,
   "dependencies": {
     "dom-to-image": "^2.6.0",
     "jest-environment-jsdom": "^29.2.0",
